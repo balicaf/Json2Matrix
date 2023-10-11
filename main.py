@@ -10,9 +10,10 @@ def reset_matrix(data):
                 x = pairs[j][0]
                 y = pairs[j][1]
                 index = int(key) * 8 + j
-                print(index)
-                matrix[index] = x + y
+                #print(index)
+                matrix[index] = (x + y) *8
 
+    print(matrix)
     #return matrix
 
 import csv
