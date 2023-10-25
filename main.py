@@ -11,7 +11,8 @@ def reset_matrix(data):
                 y = pairs[j][1]
                 index = int(key) * 8 + j
                 #print(index)
-                matrix[index] = (x + y) *8
+                #matrix[index] = (x + y) *8
+                matrix[index] = x + y * 16
 
     print(matrix)
     #return matrix
